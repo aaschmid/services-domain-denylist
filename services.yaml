@@ -1,0 +1,169 @@
+# AdGuard service IDs to block. Discover all valid IDs in the services feed
+# (https://adguardteam.github.io/HostlistsRegistry/assets/services.json).
+# Lines starting with '#' are comments: uncomment a service to block it.
+services:
+  # --- AI services ---
+  #  - chatgpt
+  #  - claude
+  #  - copilot
+  #  - deepseek
+  #  - dola
+  #  - gemini
+  #  - grok
+  #  - manus
+  #  - meta_ai
+  #  - perplexity
+  #  - questionai
+  #  - qwen
+
+  # --- Betting & gambling ---
+  - betano
+  - betfair
+  - betway
+  - blaze
+  - fdj_united
+
+  # --- CDNs ---
+  #  - cloudflare
+
+  # --- Dating ---
+  - grindr
+  - plenty_of_fish
+  - tinder
+  - wizz
+
+  # --- Gaming ---
+  - activision_blizzard
+  - battle_net
+  - blizzard_entertainment
+  - electronic_arts
+  - epic_games
+  - gog
+  - io_interactive
+  - leagueoflegends
+  #  - minecraft
+  #  - nintendo
+  - origin
+  - playstation
+  - riot_games
+  - roblox
+  - rockstar_games
+  - shell_shockers
+  - steam
+  - ubisoft
+  - valorant
+  - wargaming
+  - warnerbrosgames
+  #  - xboxlive
+
+  # --- Hosting ---
+  - box
+  - dropbox
+  - flickr
+  - imgur
+
+  # --- Messengers ---
+  - kakaotalk
+  - kik
+  - max
+  #  - microsoft_teams
+  - olvid
+  #  - signal
+  #  - skype
+  #  - slack
+  - telegram
+  - viber
+  - wechat
+  #  - whatsapp
+
+  # --- Privacy ---
+  #  - icloud_private_relay
+  - privacy
+  - proton
+
+  # --- Shopping ---
+  - aliexpress
+  #  - amazon
+  - coolapk
+  #  - ebay
+  - lazada
+  - mercado_libre
+  - shein
+  - shopee
+  - temu
+  - xiaohongshu
+
+  # --- Social networks ---
+  - 4chan
+  - 500px
+  - 9gag
+  - amino
+  - bluesky
+  - clubhouse
+  - discord
+  - douban
+  - facebook
+  - instagram
+  - kook
+  - line
+  #  - linkedin
+  - mail_ru
+  - mastodon
+  - odysee
+  - ok
+  - onlyfans
+  - pinterest
+  #  - reddit
+  - snapchat
+  #  - tiktok
+  - tumblr
+  #  - twitter
+  - vk
+  - zhihu
+
+  # --- Software ---
+  #  - nvidia
+  #  - playstore
+
+  # --- Streaming ---
+  #  - amazon_streaming
+  #  - apple_streaming
+  #  - bigo_live
+  - bilibili
+  - canais_globo
+  - claro
+  - crunchyroll
+  - dailymotion
+  - deezer
+  - directvgo
+  - discoveryplus
+  #  - disneyplus
+  - espn
+  - fifa
+  - globoplay
+  - hbomax
+  - hulu
+  - iheartradio
+  - iqiyi
+  - lionsgateplus
+  - looke
+  - nebula
+  #  - netflix
+  - paramountplus
+  - peacock_tv
+  - plex
+  - pluto_tv
+  - qq
+  - rakuten_viki
+  - samsung_tv_plus
+  - soundcloud
+  - spotify
+  - spotify_video
+  - tidal
+  - twitch
+  #  - vimeo
+  #  - vivo_play
+  - voot
+  - weibo
+  #  - youtube
+  - yy
