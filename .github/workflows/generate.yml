@@ -1,0 +1,37 @@
+name: generate
+
+on:
+  push:
+  schedule:
+    - cron: "23 4 * * 1" # weekly, Mondays 04:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents:
+    - read
+    - write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - run: uv sync --locked
+
+      - run: uv run generate_denylist.py
+
+      - name: Commit new blocklist if changed (skip otherwise)
+        run: |
+          if git diff --quiet -- blocklist.txt; then
+            echo "blocklist.txt unchanged; nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blocklist.txt
+          # TODO add some date to the commit message?
+          git commit -m "build: refresh blocklist"
+          git push
