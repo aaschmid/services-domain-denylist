@@ -1,4 +1,4 @@
-# Generated 2026-11-21 by generate_denylist.py
+# Generated 2026-11-23 by generate_denylist.py
 # Source: [AdGuard HostlistsRegistry](https://adguardteam.github.io/HostlistsRegistry/assets/services.json)
 # Stats: 104 services, 1392 raw rules, 5 skipped, 1379 domains
 32red.co.uk
